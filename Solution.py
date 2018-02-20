@@ -10,4 +10,4 @@ data_path = './data/'
 
 def solve():
 	# get top demanding products
-	sorted_freq, prod_freq = get_most_demanding_products(top=20)
+	sorted_freq, prod_freq_dict = get_most_demanding_products(top=20, month=37)
